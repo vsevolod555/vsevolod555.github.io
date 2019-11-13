@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!--=================================css for bootstrap============================================-->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+</head>
+<body>
+	<!--
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-12 justify-content-end">
+				<p>
+				  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				    <ion-icon name="search"></ion-icon>
+				  </a>
+				  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+				    <ion-icon name="contact"></ion-icon>
+				  </a>
+				  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+				    <ion-icon name="menu"></ion-icon>
+				  </button>
+				</p>
+				<div class="collapse" id="collapseExample">
+				  <div class="card card-body">
+				    <form class="form-inline my-2 my-lg-0">
+							      <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+							      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+							    </form>
+			  </div>
+			</div>
+				<div class="collapse" id="collapseExample1">
+				  	<div class="card card-body">
+				    <form class="px-4 py-3">
+										    <div class="form-group">
+										      <label for="exampleDropdownFormEmail1">Адресс почты:</label>
+										      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+										    </div>
+										    <div class="form-group">
+										      <label for="exampleDropdownFormPassword1">Пароль:</label>
+										      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Пароль">
+										    </div>
+										    <div class="form-check">
+										      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+										      <label class="form-check-label" for="dropdownCheck">
+										        Запомнить меня
+										      </label>
+										    </div>
+										    <button type="submit" class="btn btn-primary">Войти</button>
+										  </form>
+										  <div class="dropdown-divider"></div>
+										  <a class="dropdown-item" href="#">Зарегистрироваться</a>
+										  <a class="dropdown-item" href="#">Забыли пароль?</a>
+			  </div>
+			</div>
+			<div class="collapse" id="collapseExample2">
+				  	<div class="card card-body">
+				    111111
+			  </div>
+		</div>
+	</div>
+</div>
+</div>
+-->
+<!--
+<div class="container-fluid">
+		<div class="row col-12">
+				<ul class="nav nav-tabs justify-content-end" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><ion-icon name="search"></ion-icon>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><ion-icon name="contact"></ion-icon>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><ion-icon name="menu"></ion-icon>
+    </a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><form class="form-inline my-2 my-lg-0">
+							      <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+							      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+							    </form>
+	</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+  	
+  	<form class="px-4 py-3">
+										    <div class="form-group">
+										      <label for="exampleDropdownFormEmail1">Адресс почты:</label>
+										      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+										    </div>
+										    <div class="form-group">
+										      <label for="exampleDropdownFormPassword1">Пароль:</label>
+										      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Пароль">
+										    </div>
+										    <div class="form-check">
+										      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+										      <label class="form-check-label" for="dropdownCheck">
+										        Запомнить меня
+										      </label>
+										    </div>
+										    <button type="submit" class="btn btn-primary">Войти</button>
+										  </form>
+										  <div class="dropdown-divider"></div>
+										  <a class="dropdown-item" href="#">Зарегистрироваться</a>
+										  <a class="dropdown-item" href="#">Забыли пароль?</a>
+
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+  	<ul class="nav flex-sm-column">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Главная</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Новости</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Галерея</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">События</a>
+  </li>
+</ul>
+  </div>
+</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><ion-icon name="search"></ion-icon></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><ion-icon name="contact"></ion-icon></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><ion-icon name="menu"></ion-icon></a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+</div>
+			</div>
+		</div>
+	</div>
+
+
+-->
+
+	<!--====================================block top===========================================-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<img class="img-fluid" src="images/ft1.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!--====================================/block top===========================================-->
+
+	<!--====================================menu===========================================-->
+	<div class="container-fluid block-menu">
+		<div class="row bg-dark pb-2 pt-2 my-auto">
+			<div class="col-6">
+				<img class="img-fluid" src="images/logo-1.png" alt="">
+			</div>
+			<div class="col-6">
+				<ul class="nav justify-content-end">
+				  <li class="nav-item mr-2">
+				    <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				    <ion-icon name="search"></ion-icon>
+				  </a>
+				  </li>
+				  <li class="nav-item mr-2">
+				    <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+				    <ion-icon name="contact"></ion-icon>
+				  </a>
+				  </li>
+				  <li class="nav-item">
+				    <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+				    <ion-icon name="menu"></ion-icon>
+				  </button>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<div class="row"><!--====vklad====-->
+			<div class="col-12">
+				<div class="collapse" id="collapseExample">
+				  <div class="card card-body">
+				    <form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+					</form>
+				</div>
+				</div>
+				<div class="collapse" id="collapseExample1">
+				  <div class="card card-body">
+				    
+						  <form class="px-4 py-3">
+						    <div class="form-group">
+						      <label for="exampleDropdownFormEmail1">Email адресс</label>
+						      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="пример:email@example.com">
+						    </div>
+						    <div class="form-group">
+						      <label for="exampleDropdownFormPassword1">Пароль</label>
+						      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Пароль">
+						    </div>
+						    <div class="form-check">
+						      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+						      <label class="form-check-label" for="dropdownCheck">
+						        Запомнить меня
+						      </label>
+						    </div>
+						    <button type="submit" class="btn btn-primary">Войти</button>
+						  </form>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Зарегистрируйтесь, чтобы войти</a>
+						  <a class="dropdown-item" href="#">Забыли пароль?</a>
+						
+				</div>
+				</div>
+				<div class="collapse" id="collapseExample2">
+				  	<div class="card card-body">
+				    111111
+			  </div>
+			</div>
+			</div>
+			</div><!--====/vklad====-->
+		</div> <!--========/menu=========-->
+		<!--==================================content================================-->
+		<div class="container-fluid block-content">
+			<div class="row">
+				<div class="col-12">
+					<div id="accordion" class="block-content-accordion">
+					  <div class="card">
+					    <div class="card-header" id="headingOne">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" aria-expanded="false" style="display: block;">
+					          Предприятия и продукция
+					        </a>
+					      </h5>
+					    </div>
+<!-- ================================================================ -->
+					    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Галерея продукции
+					        </a>
+					      </h5>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Торговая площадка
+					        </a>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  -->
+		<div class="col-12 bg-warning block-middle-reklama"><!--=======block middle reklam======-->
+			<img class="img-fluid mx-auto d-block" src="images/ft3.jpg" alt="">
+		</div><!--=======/block middle======-->
+		<!--  -->
+		<div class="container-fluid block-content">
+			<div class="row">
+				<div class="col-12">
+					<div id="accordion" class="block-content-accordion">
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Новости, пресс-релизы
+					        </a>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+				<!-- ============================================================================== -->
+					    <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Статьи, интервью
+					        </a>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <!--  -->
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Календарь событий
+					        </a>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body p-0 pt-1">
+					        <ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковка и тара</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочные материалы и сырье</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Упаковочное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Машины для производства упаковки</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Пищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полимерное оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Полиграфическое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Торговля Склад Логистик</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Непищевое оборудование</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">Услуги</a>
+							  </li>
+							</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <!--  -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--==================================/content================================-->
+<!--  -->
+<!-- ==========================================block bottom reklama============================= -->
+
+		<div class="container-fluid fixed-bottom alert alert-warning alert-dismissible fade show block-bottom-reklama" role="alert">
+			<div class="row">
+				<div class="col-12 block-relative">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    			<span aria-hidden="true">&times;</span>
+		  			</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<img class="img-fluid mx-auto d-block" src="images/ft3.jpg" alt="">
+				</div>
+				<div class="col-6">
+					<img class="img-fluid mx-auto d-block" src="images/ft3.jpg" alt="">
+				</div>
+			</div>
+		  
+		</div>
+<!-- ==========================================/block bottom reklama============================= -->
+
+
+	<!--=====================js for bootstrap and jquery==================================-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>

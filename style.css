@@ -1,0 +1,15 @@
+﻿.block-content h5 a {
+	display: block;
+}
+.block-content-accordion .card-body a {
+	display: block;
+	color: #fff;
+	background: blue;
+	border-bottom: .1em solid #ccc;
+}
+.block-middle-reklama img {
+	width: 100%;
+}
+.block-bottom-reklama .block-relative {
+	position: relative;
+}
